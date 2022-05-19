@@ -21,6 +21,7 @@ inp2=sl.text_input('Email:')
 btn=sl.button('Continue!')
 
 if btn:
+    webbrowser.open_new_tab('https://rattleofficial.github.io/sponsor/payment.html')
     data={inp:""}
     r=inp2.replace('.','')
     data2={r:""}
@@ -29,4 +30,4 @@ if btn:
     db.child('Form').child('Email').update(data2)
     
 
-    webbrowser.open_new_tab('https://google.com')
+   
