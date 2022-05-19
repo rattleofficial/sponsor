@@ -28,7 +28,7 @@ if btn:
 
     db.child('Form').child('Name').update(data)
     db.child('Form').child('Email').update(data2)
-     webbrowser.open('https://rattleofficial.github.io/sponsor/payment.html')
+    webbrowser.open('https://rattleofficial.github.io/sponsor/payment.html')
     
 
    
